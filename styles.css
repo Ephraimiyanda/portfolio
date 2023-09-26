@@ -50,7 +50,7 @@ text-align: left;
     color: white;
   }
   h2{
-    border: 8px solid #000;
+    border: 8px solid white;
     background: rgba(255, 255, 255, 0.00);
     color: #000;
     text-align: center;
@@ -132,6 +132,7 @@ text-align: left;
   }
   /* About section styles */
   #about {
+  
     background: linear-gradient(90deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
     text-align: left;
     padding: 80px 0;
@@ -165,6 +166,11 @@ text-align: left;
   .project-card.active {
     opacity: 1;
     transform: translateY(0);
+  }
+  .container_2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
   .container_2 h2{
 color: #FFF;
@@ -271,6 +277,7 @@ gap: 30px;
   justify-content: center;
   grid-column-gap: 50px;
 }
+
 #portfolio{
   background-image: url(./images/earth.svg);
   height: 200px;
@@ -332,20 +339,25 @@ margin: auto
     flex-direction: column;
     gap: 20px;
   }
+  .container_form h2{
+    border-color: black;
+  }
   .project-details a{
     color: white;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
     height: 30px;
+    
   }
   .project-details:hover{
     opacity: 1;
     padding-top: 50px;
     transform: translateY(0px);
   }
-  .project-details p{
+  .project-details>p{
     font-size: 16px;
+    text-align: center;
   }
   /* Contact section styles */
   #contact {
@@ -471,6 +483,9 @@ margin: auto
     gap: 10px;
     align-items: center;
     padding-top: 10px;
+  }
+  .contacts-div span{
+    border-color: black;
   }
   .last{
     margin-right: -30px;
