@@ -302,6 +302,9 @@ width: fit-content;
 padding: 5px;
 margin: auto
 }
+.the4{
+  margin-left: -33px;
+}
   @keyframes slideInBottom {
     0% {
       opacity: 0;
