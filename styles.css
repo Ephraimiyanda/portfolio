@@ -305,6 +305,7 @@ margin: auto
 .the4{
   margin-left: -33px;
 }
+
   @keyframes slideInBottom {
     0% {
       opacity: 0;
@@ -457,7 +458,9 @@ margin: auto
   .last{
     margin-right: -30px;
   }
-
+  .link{
+    margin-top: -34px;
+  }
   @media (max-width: 480px) {
     .container {
       padding: 10px;
