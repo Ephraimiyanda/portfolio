@@ -354,6 +354,8 @@ margin: auto
     padding-right: 10px;
     margin: auto;
     height: 30px;
+    font-size: x-large;
+    align-self: center;
     
   }
   .project-details:hover{
@@ -413,7 +415,7 @@ margin: auto
     font-size: 14px;
   }
   .internet{
-    width: 30px;
+    width: 120px;
     margin-top: 15px;
   }
   /* Responsive styles */
