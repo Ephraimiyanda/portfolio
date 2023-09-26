@@ -146,6 +146,9 @@ text-align: left;
     justify-content: center;
     gap: 30px;
   }
+  #projects h2{
+    border-color: black;
+  }
   
   .project-card {
     background-color: #1c2732;
